@@ -55,9 +55,9 @@ export default function Home() {
       </MaxWidthWrapper>
       <section className="border-t border-gray-200 bg-gray-100">
         <MaxWidthWrapper>
-          <div className="grid grid-cols-1 gap-y-12 sm:gap-x-6 sm:grid-cols-2 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-8 ">
+          <div className="mb-10 grid grid-cols-1 gap-y-12 sm:gap-x-6 sm:grid-cols-2 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-8 ">
             {perks.map((perk)=>(
-              <div key={perk.name} className="text-center md:items-start md:text-left lg:block lg:text-left bg-gradient-to-br from-rose-300 to-red-400 p-12 rounded-lg ">
+              <div key={perk.name} className="text-center md:items-start md:text-left lg:block lg:text-left bg-gradient-to-br from-rose-300 to-red-400 py-16 px-8 rounded-lg ">
                 <div className="mg:flex-shrink-0 flex justify-center">
                   <div className="h-16 w-16 flex items-center justify-center rounded-full bg-rose-100 text-rose-900">
                     {<perk.Icon className='w-1/3 h-1/3' />}
